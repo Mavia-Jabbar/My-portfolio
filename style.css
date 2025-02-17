@@ -168,7 +168,6 @@ a:hover{
 .footer{
     height: 60px;
     background-color: #adb5bd;
-    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
