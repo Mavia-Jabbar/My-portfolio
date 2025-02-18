@@ -15,13 +15,13 @@
         <div class="nav-1">
             <img src="https://www.seekpng.com/png/detail/111-1112824_picture-my-portfolio-logo-png.png" alt="portfolio logo">
         </div>
-        <div class="nav-2">
+        <div class="nav-2" id="nav-2">
             <a href="#">Home</a>
             <a href="#main2">About </a>
             <a href="#">Contact </a>
             <a href="#">Projects</a>
         </div>
-        <a href="#" class="menubutton"><i class="ri-menu-line"></i></a>
+        <a href="#" class="menubutton" id="menu-button"><i class="ri-menu-line"></i></a>
     </div>
 
     <div class="main">
@@ -38,11 +38,11 @@
         <hr>
 
     <div class="main-2" id="main2">
-        <h2>HI I'm</h2>
+        <h2>HI I'm 👋</h2>
         <h1>Mohammad Muavia</h1>
         <img src="mainpicture.jpg" alt="mainpic">
-        <h4>A Web developer</h4>
-        <p>"I’m a 15-year-old matric student with a passion for IT, programming, and web development. Currently, I’m mastering HTML, CSS, and JavaScript, and exploring frameworks like React to build dynamic, user-friendly websites. My projects—from personal blogs to interactive calculators—reflect my curiosity and drive to solve problems through code. Balancing school with self-taught tech skills, I embrace challenges as opportunities to grow. I’m fascinated by how technology shapes the world and aspire to contribute innovative solutions. Whether collaborating on coding projects, learning new tools, or refining my craft, I’m eager to connect, learn, and create impactful digital experiences. Let’s code the future together!"</p>
+        <h4>A Web developer🔗💻</h4>
+        <p>"I’m a 15-year-old matric student🖋 with a passion for IT💻, programming, and web development. Currently, I’m mastering HTML, CSS, and JavaScript📑, and exploring frameworks like React to build dynamic, user-friendly websites📁. My projects—from personal blogs📰 to interactive calculators🔧—reflect my curiosity and drive to solve problems through code♟. Balancing school with self-taught tech skills💼, I embrace challenges as opportunities to grow. I’m fascinated by how technology shapes the world🌎 and aspire to contribute innovative solutions. Whether collaborating on coding projects🗂, learning new tools, or refining my craft, I’m eager to connect, learn, and create impactful digital experiences. Let’s code the future together!🤝"</p>
     </div>
 
     <div class="footer">
@@ -60,5 +60,15 @@
             <p>Copyright &copy;2025;,Designed by Muavia  </p>
         </div>
     </div>
+
+    <script>
+        const togglebutton = document.getElementById('menu-button');
+        const navlinks = document.getElementById('nav-2');
+
+        togglebutton.addEventListener('click' , () => {
+            navlinks.classList.toggle('active');
+            })
+    </script>
+    
 </body>
 </html>
